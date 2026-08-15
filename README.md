@@ -1,2 +1,171 @@
-# PaperMind-AI
-Understand research papers in minutes. Upload a research paper and extract the key ideas, contributions, research gaps, future directions, and difficult concepts for you.
+## 📄 PaperMind AI
+
+🧠 AI-Powered Research Paper Analysis System
+
+PaperMind AI is an NLP-based research paper analysis platform that allows users to upload research papers in PDF format and automatically analyze their content.
+
+The system extracts text from research papers and provides useful insights such as summaries, key contributions, research gaps, limitations, and other important information through an easy-to-use web interface.
+
+## 🖼️ Project Preview
+
+🏠 Home / Upload Page
+
+
+
+
+📊 Research Paper Results
+
+
+## 📁 Project Structure
+
+```text
+PaperMind-AI/
+│
+├── backend/
+│   ├── services/
+│   │   └── paper_analyzer.py
+│   │
+│   ├── utils/
+│   │
+│   ├── app.py
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── public/
+│   │
+│   ├── src/
+│   │   ├── assets/
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── ResultsPage.css
+│   │   │   ├── ResultsPage.jsx
+│   │   │   ├── UploadPage.css
+│   │   │   └── UploadPage.jsx
+│   │   │
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   │
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── vite.config.js
+│   └── eslint.config.js
+│
+├── screenshots/
+│   ├── upload-page.png
+│   └── results-page.png
+│
+├── .gitignore
+└── README.md
+```
+
+## 💻 Requirements
+
+Before running PaperMind AI, Check your versions:
+
+python --version
+
+node --version
+
+npm --version
+
+git --version
+
+## 🐍 Backend Setup
+
+Open a terminal and run:
+```text
+cd backend
+```
+Create a Python virtual environment:
+```
+python -m venv venv
+```
+In Windows
+
+Activate the environment:
+```
+venv\Scripts\activate
+```
+In Linux / macOS
+```
+source venv/bin/activate
+```
+Install the required Python packages:
+```
+pip install -r requirements.txt
+```
+Start the Flask server:
+```
+python app.py
+```
+The backend will run at:
+
+http://127.0.0.1:5000
+
+## ⚛️ Frontend Setup
+
+Open a new terminal while keeping the Flask server running.
+
+Move to the frontend:
+```
+cd frontend
+```
+Install React dependencies:
+```
+npm install
+```
+Start the Vite development server:
+```
+npm run dev
+```
+The frontend will normally be available at:
+
+http://localhost:5173
+
+Open this address in your browser.
+
+## 🔬 Research Paper Analysis
+
+PaperMind AI can provide structured information such as:
+
+📝 Summary-
+A concise overview of the research paper.
+
+💡 Key Contributions-
+Important contributions and findings presented by the researchers.
+
+🔎 Research Gaps-
+Potential areas where further research may be required.
+
+⚠️ Limitations-
+Important limitations or constraints discussed or identified from the paper.
+
+## 📊 Project Workflow
+
+```mermaid
+flowchart TD
+    A["📄 PDF Research Paper"] --> B["📤 File Upload"]
+    B --> C["⚙️ Flask REST API"]
+    C --> D["📑 PDF Text Extraction"]
+    D --> E["🧹 Text Preprocessing"]
+    E --> F["🧠 NLP Analysis"]
+
+    F --> G["📝 Automatic Summary"]
+    F --> H["🔑 Key Contributions"]
+
+    G --> I["🔍 Research Gaps"]
+    H --> I
+
+    I --> J["⚠️ Limitations"]
+    J --> K["📊 Structured Results"]
+    K --> L["💻 React Dashboard"]
+```
+---
+
+### 👩‍💻 Made with ❤️ by **SHRUTI BORDE**
+
+---
+
