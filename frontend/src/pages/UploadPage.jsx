@@ -94,7 +94,7 @@ function UploadPage() {
       formData.append("file", file);
 
       const response = await fetch(
-        "http://127.0.0.1:5000/api/analyze",
+        "https://papermind-ai-backend-uxb9.onrender.com/api/analyze",
         {
           method: "POST",
           body: formData,
@@ -145,7 +145,7 @@ function UploadPage() {
 
       if (err instanceof TypeError) {
         setError(
-          "Could not connect to PaperMind AI backend. Make sure Flask is running on port 5000."
+          "Could not connect to the PaperMind AI backend. Please try again."
         );
       } else {
         setError(
