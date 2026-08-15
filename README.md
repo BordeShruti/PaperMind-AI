@@ -149,24 +149,10 @@ Important limitations or constraints discussed or identified from the paper.
 
 ## 📊 Project Workflow
 
-```mermaid
-flowchart TD
-    A["📄 PDF Research Paper"] --> B["📤 File Upload"]
-    B --> C["⚙️ Flask REST API"]
-    C --> D["📑 PDF Text Extraction"]
-    D --> E["🧹 Text Preprocessing"]
-    E --> F["🧠 NLP Analysis"]
+## 🔄 Project Workflow
 
-    F --> G["📝 Automatic Summary"]
-    F --> H["🔑 Key Contributions"]
+![PaperMind AI Project Workflow](./PREVIEW%20PICS/FLOWCHART.png)
 
-    G --> I["🔍 Research Gaps"]
-    H --> I
-
-    I --> J["⚠️ Limitations"]
-    J --> K["📊 Structured Results"]
-    K --> L["💻 React Dashboard"]
-```
 ---
 
 ### 👩‍💻 Made with ❤️ by **SHRUTI BORDE**
