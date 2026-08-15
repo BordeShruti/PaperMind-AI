@@ -6,15 +6,19 @@ PaperMind AI is an NLP-based research paper analysis platform that allows users 
 
 The system extracts text from research papers and provides useful insights such as summaries, key contributions, research gaps, limitations, and other important information through an easy-to-use web interface.
 
-## 🖼️ Project Preview
+## 🖥️ Project Preview
 
-🏠 Home / Upload Page
+### 📊 Dashboard Page
 
+![Dashboard Page](<./PREVIEW%20PICS/DASHBOARD%20PAGE.png>)
 
+### 📤 Upload Page
 
+![Upload Page](<./PREVIEW%20PICS/UPLOAD%20PAGE.png>)
 
-📊 Research Paper Results
+### 📄 Result Page
 
+![Result Page](<./PREVIEW%20PICS/RESULT%20PAGE.png>)
 
 ## 📁 Project Structure
 
