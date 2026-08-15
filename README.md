@@ -6,6 +6,15 @@ PaperMind AI is an NLP-based research paper analysis platform that allows users 
 
 The system extracts text from research papers and provides useful insights such as summaries, key contributions, research gaps, limitations, and other important information through an easy-to-use web interface.
 
+## 🚀 Live Demo
+
+🌐 Try PaperMind AI:
+
+👉 https://paper-mind-ai-red.vercel.app/
+
+Note: The frontend is deployed on Vercel. For complete analysis functionality, the Flask backend must also be deployed and properly connected to the frontend.
+
+
 ## 🖥️ Project Preview
 
 ### 📊 Dashboard Page
